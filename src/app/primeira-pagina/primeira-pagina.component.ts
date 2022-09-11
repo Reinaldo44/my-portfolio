@@ -10,6 +10,7 @@ import { IconsService } from '../icons.service';
 export class PrimeiraPaginaComponent implements OnInit {
 
   icons: Iicons [] = icons;
+  imgPerfil = "./assets/IMG_20210706_230031.jpg";
 
   constructor(
     private iconsService: IconsService
