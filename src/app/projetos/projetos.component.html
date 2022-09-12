@@ -8,7 +8,6 @@
   <div class="collapse" id="collapseExample1">
     <div class="card card-body">
       <p>Sobre o projeto: Site desenvolvido no curso de angular, que se trata de um site e-comerce</p>
- 
       <p>Link do código no github:
       <a href="https://github.com/Reinaldo44/proway-computers.git">Projeto no repositorio github</a>
     </p>
@@ -18,10 +17,10 @@
    <div class="icons-usados">
       <p>
         Linguagens utilizadas: 
-        <img class="img-icon" src="/assets/icon_angular.png">
-        <img class="img-icon" src="/assets/icon-html.png" alt="">
-        <img src="/assets/icon-css.png" alt="" class="imag-icon">
-        <img src="/assets/icon-typescript.png" alt="" class="img-icon">
+        <img class="img-icon" [src]="icons_angular?.image">
+        <img class="img-icon" [src]="icons_html?.image">
+        <img [src]="icons_css?.image" alt="" class="imag-icon">
+        <img [src]="icons_typescript?.image" alt="" class="img-icon">
       </p>
    </div>
   </div>
@@ -38,7 +37,7 @@
      <div class="icons-usados">
         <p>
           Linguagens utilizadas: 
-          <img class="img-icon" src="/assets/icon_java.png">
+          <img class="img-icon" [src]="icons_java?.image">
         </p>
      </div>
     </div>
@@ -55,7 +54,7 @@
      <div class="icons-usados">
         <p>
           Linguagens utilizadas: 
-          <img class="img-icon" src="/assets/icon_java.png">
+          <img class="img-icon" [src]="icons_java?.image">
         </p>
      </div>
     </div>
@@ -72,8 +71,8 @@
      <div class="icons-usados">
         <p>
           Tecnologias utilizadas: 
-          <img class="img-icon" src="/assets/icon-dotnet.png">
-          <img class="img-icon" src="/assets/icon-cSharp.png">
+          <img class="img-icon" [src]="icons_dotnet?.image">
+          <img class="img-icon" [src]="icons_csharp?.image">
         </p>
      </div>
     </div>
@@ -90,8 +89,8 @@
      <div class="icons-usados">
         <p>
           Tecnologias utilizadas: 
-          <img class="img-icon" src="/assets/icon-dotnet.png">
-          <img class="img-icon" src="/assets/icon-cSharp.png">
+          <img class="img-icon" [src]="icons_dotnet?.image">
+          <img class="img-icon" [src]="icons_csharp?.image">
         </p>
      </div>
     </div>

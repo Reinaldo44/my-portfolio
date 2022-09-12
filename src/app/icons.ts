@@ -6,11 +6,11 @@ export const icons : Iicons[] = [
    
     {
         id:1,
-        image: "./assets/icon_angular.png"
+        image: "./assets/icon-angular.png"
     },
     {
         id:2,
-        image: "./assets/icon_java.png"
+        image: "./assets/icon-java.png"
     },
     {
         id:3,
@@ -38,7 +38,7 @@ export const icons : Iicons[] = [
     },
     {
         id:9,
-        image: "./assets/icon-typescript.png"
+        image: "./assets/icon-dotnet.png"
     },
     {
         id:10,
@@ -51,6 +51,11 @@ export const icons : Iicons[] = [
     {
         id:12,
         image: "./assets/icon-ionic.png"
+    }
+    ,
+    {
+        id:13,
+        image: "./assets/icon-cSharp.png"
     }
 ]
 
